@@ -110,7 +110,7 @@ app.put("/books/:id", (req, resp)=>{
             resp.status(404).json({error:"A megadott könyv (id) nem létezik"})
         }
         else {
-            resp.status(200).send(result)
+            return resp.status(200).json({id:Number(id), title, author, description, cover, rating})
         }
     })
 })
