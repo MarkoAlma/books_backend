@@ -19,3 +19,4 @@ Implementálj **szerver oldali validációt**, amely ellenőrzi, hogy minden mez
 
 Minden keresés kis-nagy betű érzéketlen legyen!
 
+
